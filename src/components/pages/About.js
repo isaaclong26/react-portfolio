@@ -1,12 +1,14 @@
-
+import React from "react"
+import styled, {keyframes} from "styled-components"
+import { bounce, zoomIn, fadeIn } from "react-animations"
 
 export default function About() {
 
-  function flipFeature(){
+  const FadeIn = styled.div`animation: 2s ${keyframes`${fadeIn}`}`
 
-  }
 
     return(
+      <FadeIn>
         <div id="about" class="container-fluid ">
     <div className="row">
       <div className="col-sm-12 col-md-8 text-center">
@@ -26,5 +28,6 @@ export default function About() {
       </div>
       </div>
       </div>
+      </FadeIn>
     )
 }

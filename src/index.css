@@ -163,3 +163,10 @@ footer a {
   padding: 20px;
   color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  .gallary > img{
+    margin-left: 40px;
+  }
+  
+}
