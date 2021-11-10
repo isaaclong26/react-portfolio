@@ -1,7 +1,9 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;  
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -91,13 +93,73 @@ textarea {
  
   max-width: 60%;
   margin: auto; 
-  margin-top: 100px;
+  margin: 100px;
+  font-size: larger;
 }
 
 #feature{
+  padding: 50px;
   text-align: center;
+  
+  margin: auto;
+  margin-bottom: 200px;;
+  max-width: 90%;
+  border-radius: 7px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#feature:hover{
+  transform: scale(105%);
+}
+#featureImg >img{
+  max-width: 90%;
+  padding: 10px;
+  border-radius: 15px;
+}
+#featureInfo>h3> a{
+  color: #CC6666;
 }
 
-#feature >img{
-  max-width: 90%;
+.phoneDemo{
+  background-color: transparent;
+}
+
+.gallary >img{
+max-height: 600px;
+}
+
+.gallaryInfo{
+  padding: 100px 50px;
+}
+
+
+#noteTaker{
+  color: #18BC9C;
+  text-decoration: none;
+}
+
+#kevins{
+  text-decoration: none;
+  color:rgb(0, 120, 215)
+}
+
+#workout{
+  text-decoration: none;
+  color: #0275d8;
+}
+
+#budget{
+  text-decoration: none;
+  color:#4227a3
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0%;
+  
+}
+footer a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
 }

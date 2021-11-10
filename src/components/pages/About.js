@@ -2,8 +2,12 @@
 
 export default function About() {
 
+  function flipFeature(){
+
+  }
+
     return(
-        <div id="about" class="container-fluid">
+        <div id="about" class="container-fluid ">
     <div className="row">
       <div className="col-sm-12 col-md-8 text-center">
         <section id="aboutInfo">
