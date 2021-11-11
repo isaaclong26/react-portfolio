@@ -164,7 +164,7 @@ footer a {
   color: black;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and(max-width: 450px) {
   .gallary > img{
     margin-left: 40px;
   }

@@ -15,7 +15,7 @@ export default function Projects() {
                 <h3>Name: Writer's Block</h3>
                 <h3>Focus: Education</h3>
                 <h3>Tech: MERN Stack</h3>
-                <h3>Visit: <a href="https://writers-block-26.herokuapp.com/">Live Site</a>  </h3>
+                <h3>Visit: <a href="https://writers-block-26.herokuapp.com/" target="_blank">Live Site</a>  </h3>
                 </div>
                 <div id="featureImg" className="col-sm-12 col-md-9">
                 <img src="./writers-block.jpg"></img>
