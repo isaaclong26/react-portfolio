@@ -11,6 +11,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media (prefers-color-scheme: dark) {
+    color: "white";
+    background-color:"black"
+  }
 }
 
 code {
@@ -170,3 +175,4 @@ footer a {
   }
   
 }
+

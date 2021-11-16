@@ -26,7 +26,7 @@ export default function Projects() {
 
             <h1 className="text-center mb-3">Project Gallary</h1>
             <div className="row mt-5">
-                <div className="col-sm-12 col-md-6 col-lg-3 gallary "><img className="phoneDemo " src="./notetakerdemo.png"></img></div>
+                <div className="col-sm-12 col-md-6 col-lg-3 gallary "><img className="phoneDemo " alt="note taker" src="./notetakerdemo.png"></img></div>
                 <div className="col-sm-12 col-md-6 col-lg-3 gallaryInfo text-center ">
                 <h2 className="text-decoration-underline"> Note Taker</h2>
                 <h3>Focus: Productivity</h3>
